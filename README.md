@@ -1,7 +1,10 @@
 # Generated Haskell OpenAI client library
 
-<img src="https://w7.pngwing.com/pngs/126/435/png-transparent-openai-logo-tech-companies-thumbnail.png" style="width:150px">
-<img src="https://w7.pngwing.com/pngs/202/480/png-transparent-haskell-hackathon-programming-language-idris-functional-programming-others-purple-angle-text-thumbnail.png" style="width:150px">
+<div style="display:flex; flex-direction: row; padding: 35px; justify-content: center; align-items: center; ">
+  <img src="https://w7.pngwing.com/pngs/126/435/png-transparent-openai-logo-tech-companies-thumbnail.png" style="max-width:150px; margin-right:30px">
+  <span style="font-size: xxx-large;">&nbsp;&nbsp;&gt;&gt;&nbsp;&nbsp;</span>
+  <img src="https://w7.pngwing.com/pngs/202/480/png-transparent-haskell-hackathon-programming-language-idris-functional-programming-others-purple-angle-text-thumbnail.png" style="width:125px">
+</div>
 
 ## Concept
 
