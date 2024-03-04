@@ -1,6 +1,6 @@
 resolver: lts-21.22
 packages:
-  - openai-client
+  - .
   - openai-gen
 
 extra-deps:
