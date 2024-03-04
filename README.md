@@ -1,5 +1,8 @@
 # Generated Haskell OpenAI client library
 
+<img src="https://w7.pngwing.com/pngs/126/435/png-transparent-openai-logo-tech-companies-thumbnail.png" style="width:150px">
+<img src="https://w7.pngwing.com/pngs/202/480/png-transparent-haskell-hackathon-programming-language-idris-functional-programming-others-purple-angle-text-thumbnail.png" style="width:150px">
+
 ## Concept
 
 This is a client library for accessing OpenAI API with Haskell code. Importantly, the low-level access code is derived automatically from the official formal [definition](https://github.com/openai/openai-openapi) provided by OpenAI in OpenAPI3 format. Then a developer-friendly layer is added to the low-level part, so that it's much easier to use in normal work.
