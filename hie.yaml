@@ -1,0 +1,8 @@
+cradle:
+  stack:
+  - path: "./openai-client/src"
+    component: openai-client:lib
+  - path: "./openai-client/test"
+    component: openai-client:test:test-client
+  - path: "./openai-gen/src"
+    component: openai-gen:lib

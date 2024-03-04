@@ -1,0 +1,19 @@
+module OpenAIGen.Types.CreateAssistantRequest where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified OpenAIGen.Common
+data CreateAssistantRequest
+instance Show CreateAssistantRequest
+instance Eq CreateAssistantRequest
+instance FromJSON CreateAssistantRequest
+instance ToJSON CreateAssistantRequest
+data CreateAssistantRequestModel'Variants
+instance Show CreateAssistantRequestModel'Variants
+instance Eq CreateAssistantRequestModel'Variants
+instance FromJSON CreateAssistantRequestModel'Variants
+instance ToJSON CreateAssistantRequestModel'Variants
+data CreateAssistantRequestTools'Variants
+instance Show CreateAssistantRequestTools'Variants
+instance Eq CreateAssistantRequestTools'Variants
+instance FromJSON CreateAssistantRequestTools'Variants
+instance ToJSON CreateAssistantRequestTools'Variants

@@ -1,0 +1,14 @@
+module OpenAIGen.Types.ChatCompletionResponseMessage where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified OpenAIGen.Common
+data ChatCompletionResponseMessage
+instance Show ChatCompletionResponseMessage
+instance Eq ChatCompletionResponseMessage
+instance FromJSON ChatCompletionResponseMessage
+instance ToJSON ChatCompletionResponseMessage
+data ChatCompletionResponseMessageFunctionCall'
+instance Show ChatCompletionResponseMessageFunctionCall'
+instance Eq ChatCompletionResponseMessageFunctionCall'
+instance FromJSON ChatCompletionResponseMessageFunctionCall'
+instance ToJSON ChatCompletionResponseMessageFunctionCall'

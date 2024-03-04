@@ -1,0 +1,24 @@
+module OpenAIGen.Types.CreateModerationResponse where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified OpenAIGen.Common
+data CreateModerationResponse
+instance Show CreateModerationResponse
+instance Eq CreateModerationResponse
+instance FromJSON CreateModerationResponse
+instance ToJSON CreateModerationResponse
+data CreateModerationResponseResults'
+instance Show CreateModerationResponseResults'
+instance Eq CreateModerationResponseResults'
+instance FromJSON CreateModerationResponseResults'
+instance ToJSON CreateModerationResponseResults'
+data CreateModerationResponseResults'Categories'
+instance Show CreateModerationResponseResults'Categories'
+instance Eq CreateModerationResponseResults'Categories'
+instance FromJSON CreateModerationResponseResults'Categories'
+instance ToJSON CreateModerationResponseResults'Categories'
+data CreateModerationResponseResults'CategoryScores'
+instance Show CreateModerationResponseResults'CategoryScores'
+instance Eq CreateModerationResponseResults'CategoryScores'
+instance FromJSON CreateModerationResponseResults'CategoryScores'
+instance ToJSON CreateModerationResponseResults'CategoryScores'

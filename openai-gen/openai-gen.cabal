@@ -1,0 +1,197 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.36.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           openai-gen
+version:        0.1.0.0
+synopsis:       OpenAI client library generated from the OpenAI OpenAPI3 definition.
+description:    OpenAI client library generated from the OpenAI OpenAPI3 definition.
+category:       Web
+homepage:       https://github.com/hugodro/openai-client#readme
+bug-reports:    https://github.com/hugodro/openai-client/issues
+author:         Hugo DesRosiers <hugo.desrosiers@boardingcities.com>
+maintainer:     Hugo DesRosiers <hugo.desrosiers@boardingcities.com>
+copyright:      2024 Hugo DesRosiers <hugo.desrosiers@boardingcities.com>
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/hugodro/openai-client
+
+library
+  exposed-modules:
+      OpenAIGen
+      OpenAIGen.Common
+      OpenAIGen.Configuration
+      OpenAIGen.Operations.CancelFineTuningJob
+      OpenAIGen.Operations.CancelRun
+      OpenAIGen.Operations.CreateAssistant
+      OpenAIGen.Operations.CreateAssistantFile
+      OpenAIGen.Operations.CreateChatCompletion
+      OpenAIGen.Operations.CreateCompletion
+      OpenAIGen.Operations.CreateEmbedding
+      OpenAIGen.Operations.CreateFile
+      OpenAIGen.Operations.CreateFineTuningJob
+      OpenAIGen.Operations.CreateImage
+      OpenAIGen.Operations.CreateImageEdit
+      OpenAIGen.Operations.CreateImageVariation
+      OpenAIGen.Operations.CreateMessage
+      OpenAIGen.Operations.CreateModeration
+      OpenAIGen.Operations.CreateRun
+      OpenAIGen.Operations.CreateSpeech
+      OpenAIGen.Operations.CreateThread
+      OpenAIGen.Operations.CreateThreadAndRun
+      OpenAIGen.Operations.CreateTranscription
+      OpenAIGen.Operations.CreateTranslation
+      OpenAIGen.Operations.DeleteAssistant
+      OpenAIGen.Operations.DeleteAssistantFile
+      OpenAIGen.Operations.DeleteFile
+      OpenAIGen.Operations.DeleteModel
+      OpenAIGen.Operations.DeleteThread
+      OpenAIGen.Operations.DownloadFile
+      OpenAIGen.Operations.GetAssistant
+      OpenAIGen.Operations.GetAssistantFile
+      OpenAIGen.Operations.GetMessage
+      OpenAIGen.Operations.GetMessageFile
+      OpenAIGen.Operations.GetRun
+      OpenAIGen.Operations.GetRunStep
+      OpenAIGen.Operations.GetThread
+      OpenAIGen.Operations.ListAssistantFiles
+      OpenAIGen.Operations.ListAssistants
+      OpenAIGen.Operations.ListFiles
+      OpenAIGen.Operations.ListFineTuningEvents
+      OpenAIGen.Operations.ListMessageFiles
+      OpenAIGen.Operations.ListMessages
+      OpenAIGen.Operations.ListModels
+      OpenAIGen.Operations.ListPaginatedFineTuningJobs
+      OpenAIGen.Operations.ListRuns
+      OpenAIGen.Operations.ListRunSteps
+      OpenAIGen.Operations.ModifyAssistant
+      OpenAIGen.Operations.ModifyMessage
+      OpenAIGen.Operations.ModifyRun
+      OpenAIGen.Operations.ModifyThread
+      OpenAIGen.Operations.RetrieveFile
+      OpenAIGen.Operations.RetrieveFineTuningJob
+      OpenAIGen.Operations.RetrieveModel
+      OpenAIGen.Operations.SubmitToolOuputsToRun
+      OpenAIGen.SecuritySchemes
+      OpenAIGen.TypeAlias
+      OpenAIGen.Types
+      OpenAIGen.Types.AssistantFileObject
+      OpenAIGen.Types.AssistantObject
+      OpenAIGen.Types.AssistantToolsCode
+      OpenAIGen.Types.AssistantToolsFunction
+      OpenAIGen.Types.AssistantToolsRetrieval
+      OpenAIGen.Types.ChatCompletionFunctionCallOption
+      OpenAIGen.Types.ChatCompletionFunctions
+      OpenAIGen.Types.ChatCompletionMessageToolCall
+      OpenAIGen.Types.ChatCompletionNamedToolChoice
+      OpenAIGen.Types.ChatCompletionRequestAssistantMessage
+      OpenAIGen.Types.ChatCompletionRequestFunctionMessage
+      OpenAIGen.Types.ChatCompletionRequestMessage
+      OpenAIGen.Types.ChatCompletionRequestMessageContentPart
+      OpenAIGen.Types.ChatCompletionRequestMessageContentPartImage
+      OpenAIGen.Types.ChatCompletionRequestMessageContentPartText
+      OpenAIGen.Types.ChatCompletionRequestSystemMessage
+      OpenAIGen.Types.ChatCompletionRequestToolMessage
+      OpenAIGen.Types.ChatCompletionRequestUserMessage
+      OpenAIGen.Types.ChatCompletionResponseMessage
+      OpenAIGen.Types.ChatCompletionTokenLogprob
+      OpenAIGen.Types.ChatCompletionTool
+      OpenAIGen.Types.ChatCompletionToolChoiceOption
+      OpenAIGen.Types.CompletionUsage
+      OpenAIGen.Types.CreateAssistantFileRequest
+      OpenAIGen.Types.CreateAssistantRequest
+      OpenAIGen.Types.CreateChatCompletionRequest
+      OpenAIGen.Types.CreateChatCompletionResponse
+      OpenAIGen.Types.CreateCompletionRequest
+      OpenAIGen.Types.CreateCompletionResponse
+      OpenAIGen.Types.CreateEmbeddingRequest
+      OpenAIGen.Types.CreateEmbeddingResponse
+      OpenAIGen.Types.CreateFineTuningJobRequest
+      OpenAIGen.Types.CreateImageRequest
+      OpenAIGen.Types.CreateMessageRequest
+      OpenAIGen.Types.CreateModerationRequest
+      OpenAIGen.Types.CreateModerationResponse
+      OpenAIGen.Types.CreateRunRequest
+      OpenAIGen.Types.CreateSpeechRequest
+      OpenAIGen.Types.CreateThreadAndRunRequest
+      OpenAIGen.Types.CreateThreadRequest
+      OpenAIGen.Types.CreateTranscriptionResponse
+      OpenAIGen.Types.CreateTranslationResponse
+      OpenAIGen.Types.DeleteAssistantFileResponse
+      OpenAIGen.Types.DeleteAssistantResponse
+      OpenAIGen.Types.DeleteFileResponse
+      OpenAIGen.Types.DeleteModelResponse
+      OpenAIGen.Types.DeleteThreadResponse
+      OpenAIGen.Types.Embedding
+      OpenAIGen.Types.FineTuningJob
+      OpenAIGen.Types.FineTuningJobEvent
+      OpenAIGen.Types.FunctionObject
+      OpenAIGen.Types.Image
+      OpenAIGen.Types.ImagesResponse
+      OpenAIGen.Types.ListAssistantFilesResponse
+      OpenAIGen.Types.ListAssistantsResponse
+      OpenAIGen.Types.ListFilesResponse
+      OpenAIGen.Types.ListFineTuningJobEventsResponse
+      OpenAIGen.Types.ListMessageFilesResponse
+      OpenAIGen.Types.ListMessagesResponse
+      OpenAIGen.Types.ListModelsResponse
+      OpenAIGen.Types.ListPaginatedFineTuningJobsResponse
+      OpenAIGen.Types.ListRunsResponse
+      OpenAIGen.Types.ListRunStepsResponse
+      OpenAIGen.Types.MessageContentImageFileObject
+      OpenAIGen.Types.MessageContentTextAnnotationsFileCitationObject
+      OpenAIGen.Types.MessageContentTextAnnotationsFilePathObject
+      OpenAIGen.Types.MessageContentTextObject
+      OpenAIGen.Types.MessageFileObject
+      OpenAIGen.Types.MessageObject
+      OpenAIGen.Types.Model
+      OpenAIGen.Types.ModifyAssistantRequest
+      OpenAIGen.Types.ModifyMessageRequest
+      OpenAIGen.Types.ModifyRunRequest
+      OpenAIGen.Types.ModifyThreadRequest
+      OpenAIGen.Types.OpenAIFile
+      OpenAIGen.Types.RunCompletionUsage
+      OpenAIGen.Types.RunObject
+      OpenAIGen.Types.RunStepCompletionUsage
+      OpenAIGen.Types.RunStepDetailsMessageCreationObject
+      OpenAIGen.Types.RunStepDetailsToolCallsCodeObject
+      OpenAIGen.Types.RunStepDetailsToolCallsCodeOutputImageObject
+      OpenAIGen.Types.RunStepDetailsToolCallsCodeOutputLogsObject
+      OpenAIGen.Types.RunStepDetailsToolCallsFunctionObject
+      OpenAIGen.Types.RunStepDetailsToolCallsObject
+      OpenAIGen.Types.RunStepDetailsToolCallsRetrievalObject
+      OpenAIGen.Types.RunStepObject
+      OpenAIGen.Types.RunToolCallObject
+      OpenAIGen.Types.SubmitToolOutputsRunRequest
+      OpenAIGen.Types.ThreadObject
+  other-modules:
+      Paths_openai_gen
+  hs-source-dirs:
+      src
+  default-extensions:
+      OverloadedStrings
+  ghc-options: -Wall -Wno-unused-imports -Wno-missing-signatures -Wno-name-shadowing -Wno-unused-matches -fwarn-tabs -fwarn-incomplete-uni-patterns -fwarn-incomplete-record-updates
+  build-depends:
+      aeson
+    , base >=4.7 && <5
+    , bytestring
+    , ghc-prim
+    , http-client
+    , http-conduit
+    , http-types
+    , mtl
+    , scientific
+    , text
+    , time
+    , transformers
+    , unordered-containers
+    , vector
+  default-language: Haskell2010

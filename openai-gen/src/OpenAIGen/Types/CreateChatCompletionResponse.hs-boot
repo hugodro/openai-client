@@ -1,0 +1,24 @@
+module OpenAIGen.Types.CreateChatCompletionResponse where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified OpenAIGen.Common
+data CreateChatCompletionResponse
+instance Show CreateChatCompletionResponse
+instance Eq CreateChatCompletionResponse
+instance FromJSON CreateChatCompletionResponse
+instance ToJSON CreateChatCompletionResponse
+data CreateChatCompletionResponseChoices'
+instance Show CreateChatCompletionResponseChoices'
+instance Eq CreateChatCompletionResponseChoices'
+instance FromJSON CreateChatCompletionResponseChoices'
+instance ToJSON CreateChatCompletionResponseChoices'
+data CreateChatCompletionResponseChoices'FinishReason'
+instance Show CreateChatCompletionResponseChoices'FinishReason'
+instance Eq CreateChatCompletionResponseChoices'FinishReason'
+instance FromJSON CreateChatCompletionResponseChoices'FinishReason'
+instance ToJSON CreateChatCompletionResponseChoices'FinishReason'
+data CreateChatCompletionResponseChoices'Logprobs'NonNullable
+instance Show CreateChatCompletionResponseChoices'Logprobs'NonNullable
+instance Eq CreateChatCompletionResponseChoices'Logprobs'NonNullable
+instance FromJSON CreateChatCompletionResponseChoices'Logprobs'NonNullable
+instance ToJSON CreateChatCompletionResponseChoices'Logprobs'NonNullable

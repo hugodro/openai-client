@@ -1,0 +1,14 @@
+module OpenAIGen.Types.RunStepDetailsToolCallsFunctionObject where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified OpenAIGen.Common
+data RunStepDetailsToolCallsFunctionObject
+instance Show RunStepDetailsToolCallsFunctionObject
+instance Eq RunStepDetailsToolCallsFunctionObject
+instance FromJSON RunStepDetailsToolCallsFunctionObject
+instance ToJSON RunStepDetailsToolCallsFunctionObject
+data RunStepDetailsToolCallsFunctionObjectFunction'
+instance Show RunStepDetailsToolCallsFunctionObjectFunction'
+instance Eq RunStepDetailsToolCallsFunctionObjectFunction'
+instance FromJSON RunStepDetailsToolCallsFunctionObjectFunction'
+instance ToJSON RunStepDetailsToolCallsFunctionObjectFunction'

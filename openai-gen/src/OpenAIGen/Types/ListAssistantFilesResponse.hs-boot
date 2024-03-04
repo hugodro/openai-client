@@ -1,0 +1,9 @@
+module OpenAIGen.Types.ListAssistantFilesResponse where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified OpenAIGen.Common
+data ListAssistantFilesResponse
+instance Show ListAssistantFilesResponse
+instance Eq ListAssistantFilesResponse
+instance FromJSON ListAssistantFilesResponse
+instance ToJSON ListAssistantFilesResponse

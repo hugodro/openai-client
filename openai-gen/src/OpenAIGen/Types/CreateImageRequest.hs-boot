@@ -1,0 +1,39 @@
+module OpenAIGen.Types.CreateImageRequest where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified OpenAIGen.Common
+data CreateImageRequest
+instance Show CreateImageRequest
+instance Eq CreateImageRequest
+instance FromJSON CreateImageRequest
+instance ToJSON CreateImageRequest
+data CreateImageRequestModel'NonNullableOneOf2
+instance Show CreateImageRequestModel'NonNullableOneOf2
+instance Eq CreateImageRequestModel'NonNullableOneOf2
+instance FromJSON CreateImageRequestModel'NonNullableOneOf2
+instance ToJSON CreateImageRequestModel'NonNullableOneOf2
+data CreateImageRequestModel'NonNullableVariants
+instance Show CreateImageRequestModel'NonNullableVariants
+instance Eq CreateImageRequestModel'NonNullableVariants
+instance FromJSON CreateImageRequestModel'NonNullableVariants
+instance ToJSON CreateImageRequestModel'NonNullableVariants
+data CreateImageRequestQuality'
+instance Show CreateImageRequestQuality'
+instance Eq CreateImageRequestQuality'
+instance FromJSON CreateImageRequestQuality'
+instance ToJSON CreateImageRequestQuality'
+data CreateImageRequestResponseFormat'NonNullable
+instance Show CreateImageRequestResponseFormat'NonNullable
+instance Eq CreateImageRequestResponseFormat'NonNullable
+instance FromJSON CreateImageRequestResponseFormat'NonNullable
+instance ToJSON CreateImageRequestResponseFormat'NonNullable
+data CreateImageRequestSize'NonNullable
+instance Show CreateImageRequestSize'NonNullable
+instance Eq CreateImageRequestSize'NonNullable
+instance FromJSON CreateImageRequestSize'NonNullable
+instance ToJSON CreateImageRequestSize'NonNullable
+data CreateImageRequestStyle'NonNullable
+instance Show CreateImageRequestStyle'NonNullable
+instance Eq CreateImageRequestStyle'NonNullable
+instance FromJSON CreateImageRequestStyle'NonNullable
+instance ToJSON CreateImageRequestStyle'NonNullable

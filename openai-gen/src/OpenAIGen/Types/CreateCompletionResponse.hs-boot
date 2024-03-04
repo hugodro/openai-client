@@ -1,0 +1,24 @@
+module OpenAIGen.Types.CreateCompletionResponse where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified OpenAIGen.Common
+data CreateCompletionResponse
+instance Show CreateCompletionResponse
+instance Eq CreateCompletionResponse
+instance FromJSON CreateCompletionResponse
+instance ToJSON CreateCompletionResponse
+data CreateCompletionResponseChoices'
+instance Show CreateCompletionResponseChoices'
+instance Eq CreateCompletionResponseChoices'
+instance FromJSON CreateCompletionResponseChoices'
+instance ToJSON CreateCompletionResponseChoices'
+data CreateCompletionResponseChoices'FinishReason'
+instance Show CreateCompletionResponseChoices'FinishReason'
+instance Eq CreateCompletionResponseChoices'FinishReason'
+instance FromJSON CreateCompletionResponseChoices'FinishReason'
+instance ToJSON CreateCompletionResponseChoices'FinishReason'
+data CreateCompletionResponseChoices'Logprobs'NonNullable
+instance Show CreateCompletionResponseChoices'Logprobs'NonNullable
+instance Eq CreateCompletionResponseChoices'Logprobs'NonNullable
+instance FromJSON CreateCompletionResponseChoices'Logprobs'NonNullable
+instance ToJSON CreateCompletionResponseChoices'Logprobs'NonNullable

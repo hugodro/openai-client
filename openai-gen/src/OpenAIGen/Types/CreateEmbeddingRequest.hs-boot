@@ -1,0 +1,29 @@
+module OpenAIGen.Types.CreateEmbeddingRequest where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified OpenAIGen.Common
+data CreateEmbeddingRequest
+instance Show CreateEmbeddingRequest
+instance Eq CreateEmbeddingRequest
+instance FromJSON CreateEmbeddingRequest
+instance ToJSON CreateEmbeddingRequest
+data CreateEmbeddingRequestEncodingFormat'
+instance Show CreateEmbeddingRequestEncodingFormat'
+instance Eq CreateEmbeddingRequestEncodingFormat'
+instance FromJSON CreateEmbeddingRequestEncodingFormat'
+instance ToJSON CreateEmbeddingRequestEncodingFormat'
+data CreateEmbeddingRequestInput'Variants
+instance Show CreateEmbeddingRequestInput'Variants
+instance Eq CreateEmbeddingRequestInput'Variants
+instance FromJSON CreateEmbeddingRequestInput'Variants
+instance ToJSON CreateEmbeddingRequestInput'Variants
+data CreateEmbeddingRequestModel'OneOf2
+instance Show CreateEmbeddingRequestModel'OneOf2
+instance Eq CreateEmbeddingRequestModel'OneOf2
+instance FromJSON CreateEmbeddingRequestModel'OneOf2
+instance ToJSON CreateEmbeddingRequestModel'OneOf2
+data CreateEmbeddingRequestModel'Variants
+instance Show CreateEmbeddingRequestModel'Variants
+instance Eq CreateEmbeddingRequestModel'Variants
+instance FromJSON CreateEmbeddingRequestModel'Variants
+instance ToJSON CreateEmbeddingRequestModel'Variants

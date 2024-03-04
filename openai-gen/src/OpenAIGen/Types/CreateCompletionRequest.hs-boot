@@ -1,0 +1,29 @@
+module OpenAIGen.Types.CreateCompletionRequest where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified OpenAIGen.Common
+data CreateCompletionRequest
+instance Show CreateCompletionRequest
+instance Eq CreateCompletionRequest
+instance FromJSON CreateCompletionRequest
+instance ToJSON CreateCompletionRequest
+data CreateCompletionRequestModel'OneOf2
+instance Show CreateCompletionRequestModel'OneOf2
+instance Eq CreateCompletionRequestModel'OneOf2
+instance FromJSON CreateCompletionRequestModel'OneOf2
+instance ToJSON CreateCompletionRequestModel'OneOf2
+data CreateCompletionRequestModel'Variants
+instance Show CreateCompletionRequestModel'Variants
+instance Eq CreateCompletionRequestModel'Variants
+instance FromJSON CreateCompletionRequestModel'Variants
+instance ToJSON CreateCompletionRequestModel'Variants
+data CreateCompletionRequestPrompt'NonNullableVariants
+instance Show CreateCompletionRequestPrompt'NonNullableVariants
+instance Eq CreateCompletionRequestPrompt'NonNullableVariants
+instance FromJSON CreateCompletionRequestPrompt'NonNullableVariants
+instance ToJSON CreateCompletionRequestPrompt'NonNullableVariants
+data CreateCompletionRequestStop'NonNullableVariants
+instance Show CreateCompletionRequestStop'NonNullableVariants
+instance Eq CreateCompletionRequestStop'NonNullableVariants
+instance FromJSON CreateCompletionRequestStop'NonNullableVariants
+instance ToJSON CreateCompletionRequestStop'NonNullableVariants

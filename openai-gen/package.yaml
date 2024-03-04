@@ -1,0 +1,48 @@
+name:                openai-gen
+version:             0.1.0.0
+github:              "hugodro/openai-client"
+license:             BSD3
+author:              "Hugo DesRosiers <hugo.desrosiers@boardingcities.com>"
+maintainer:          "Hugo DesRosiers <hugo.desrosiers@boardingcities.com>"
+copyright:          "2024 Hugo DesRosiers <hugo.desrosiers@boardingcities.com>"
+
+extra-source-files:
+  - README.md
+
+synopsis:            OpenAI client library generated from the OpenAI OpenAPI3 definition.
+category:            Web
+
+description:         OpenAI client library generated from the OpenAI OpenAPI3 definition.
+
+dependencies:
+  - base >=4.7 && <5
+  - text
+  - ghc-prim
+  - http-conduit
+  - http-client
+  - http-types
+  - bytestring
+  - aeson
+  - unordered-containers
+  - vector
+  - scientific
+  - time
+  - mtl
+  - transformers
+
+ghc-options:
+  - -Wall
+  - -Wno-unused-imports
+  - -Wno-missing-signatures
+  - -Wno-name-shadowing
+  - -Wno-unused-matches
+  - -fwarn-tabs
+  - -fwarn-incomplete-uni-patterns
+  - -fwarn-incomplete-record-updates
+
+default-extensions:
+  - OverloadedStrings
+
+library:
+  source-dirs: src
+

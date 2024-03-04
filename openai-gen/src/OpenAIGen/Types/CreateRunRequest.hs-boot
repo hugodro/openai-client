@@ -1,0 +1,14 @@
+module OpenAIGen.Types.CreateRunRequest where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified OpenAIGen.Common
+data CreateRunRequest
+instance Show CreateRunRequest
+instance Eq CreateRunRequest
+instance FromJSON CreateRunRequest
+instance ToJSON CreateRunRequest
+data CreateRunRequestTools'NonNullableVariants
+instance Show CreateRunRequestTools'NonNullableVariants
+instance Eq CreateRunRequestTools'NonNullableVariants
+instance FromJSON CreateRunRequestTools'NonNullableVariants
+instance ToJSON CreateRunRequestTools'NonNullableVariants

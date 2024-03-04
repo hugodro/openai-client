@@ -1,0 +1,9 @@
+module OpenAIGen.Types.ChatCompletionRequestToolMessage where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified OpenAIGen.Common
+data ChatCompletionRequestToolMessage
+instance Show ChatCompletionRequestToolMessage
+instance Eq ChatCompletionRequestToolMessage
+instance FromJSON ChatCompletionRequestToolMessage
+instance ToJSON ChatCompletionRequestToolMessage

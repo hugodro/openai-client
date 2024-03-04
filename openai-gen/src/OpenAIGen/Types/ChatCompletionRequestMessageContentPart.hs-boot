@@ -1,0 +1,10 @@
+module OpenAIGen.Types.ChatCompletionRequestMessageContentPart where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified OpenAIGen.Common
+data ChatCompletionRequestMessageContentPartVariants
+instance Show ChatCompletionRequestMessageContentPartVariants
+instance Eq ChatCompletionRequestMessageContentPartVariants
+instance FromJSON ChatCompletionRequestMessageContentPartVariants
+instance ToJSON ChatCompletionRequestMessageContentPartVariants
+type ChatCompletionRequestMessageContentPart = ChatCompletionRequestMessageContentPartVariants

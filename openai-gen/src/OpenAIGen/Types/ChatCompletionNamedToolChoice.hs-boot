@@ -1,0 +1,14 @@
+module OpenAIGen.Types.ChatCompletionNamedToolChoice where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+import qualified OpenAIGen.Common
+data ChatCompletionNamedToolChoice
+instance Show ChatCompletionNamedToolChoice
+instance Eq ChatCompletionNamedToolChoice
+instance FromJSON ChatCompletionNamedToolChoice
+instance ToJSON ChatCompletionNamedToolChoice
+data ChatCompletionNamedToolChoiceFunction'
+instance Show ChatCompletionNamedToolChoiceFunction'
+instance Eq ChatCompletionNamedToolChoiceFunction'
+instance FromJSON ChatCompletionNamedToolChoiceFunction'
+instance ToJSON ChatCompletionNamedToolChoiceFunction'
